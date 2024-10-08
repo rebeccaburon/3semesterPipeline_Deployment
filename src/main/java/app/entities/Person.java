@@ -21,11 +21,25 @@ public class Person {
     @Column(name = "first_name", nullable = false)
     private String firstName;
 
+    public int ForTest1(){
+        int A = 5;
+        int B = 4;
+        int result = A + B;
+        return result;
 
-    public void ForTest(){
-        int A = 0;
-        int B = 0;
+    }
+    public int ForTest2(){
+        int A = 9;
+        int B = 8;
+        int result = A * B;
+        return result;
 
+    }
+    public int ForTest3(){
+        int A = 7;
+        int B = 3;
+        int result = A - B;
+        return result;
 
     }
 }
